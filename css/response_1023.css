@@ -183,7 +183,11 @@
     .main_slider .reverse .swiper-pagination-custom,
     .main_slider .reverse .swiper-pagination-fraction
     {
-        margin-right: -232px;
+        right: auto;
+        left: calc(100% - 426px);
+
+        margin-right: 0;
+        margin-left: 178px;
     }
 
 
