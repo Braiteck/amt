@@ -1,0 +1,158 @@
+.swiper .controls
+{
+    position: absolute;
+    right: 0;
+    bottom: -85px;
+    left: 0;
+
+    display: flex;
+
+    width: 190px;
+    margin: auto;
+
+    background: #fff;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev
+{
+    color: #181818;
+
+    position: relative;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+
+    width: 70px;
+    height: 44px;
+    margin: 0;
+
+    transition: .2s linear;
+    transform: none;
+
+    border: 1px solid #d8d8d8;
+    border-radius: 30px 0 0 30px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-button-next
+{
+    margin-left: -1px;
+
+    border-radius: 0 30px 30px 0;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after
+{
+    display: none;
+}
+
+
+.swiper-button-next .icon,
+.swiper-button-prev .icon
+{
+    display: block;
+
+    width: 11px;
+    height: 20px;
+}
+
+.swiper-button-next .icon
+{
+    transform: rotate(180deg);
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover
+{
+    color: #ee1818;
+
+    z-index: 3;
+
+    border-color: #ee1818;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction
+{
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+
+    display: flex;
+
+    width: auto;
+    height: 5px;
+    margin-left: -400px;
+
+    pointer-events: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-pagination-bullet
+{
+    display: block;
+
+    width: 5px;
+    height: 5px;
+
+    transition: .2s linear;
+    pointer-events: auto;
+
+    opacity: 1;
+    border-radius: 50%;
+    background: #c5c5c5;
+}
+
+.swiper-pagination-bullet + .swiper-pagination-bullet
+{
+    margin-left: 30px !important;
+}
+
+.swiper-pagination-bullet:hover
+{
+    background: #ee1818;
+}
+
+.swiper-pagination-bullet.active
+{
+    background: #5e5e5e;
+    box-shadow: 0 0 0 2px #5e5e5e;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}

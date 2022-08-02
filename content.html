@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.png">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#ee1818">
+		<meta name="theme-color" content="#ee1818">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)" async>
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)" async>
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont row">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<nav class="menu">
+							<div class="row">
+								<div class="menu_item">
+									<a class="sub_link active">Каталог продукции</a>
+
+									<div class="sub_menu">
+										<div><a href="/">Датчики линейных перемещений</a></div>
+										<div><a href="/">Датчики уровня жидкостей</a></div>
+										<div><a href="/">Аксессуары</a></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Область применения</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Покупателям</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">О компании</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Контакты</a>
+								</div>
+							</div>
+						</nav>
+
+						<div class="contacts">
+							<div class="email">
+								<a href="mailto:info@amtsensor.ru">info@amtsensor.ru</a>
+							</div>
+
+							<buuton class="link modal_btn" data-modal="#callback_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+							</buuton>
+
+							<a href="/" class="link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+							</a>
+
+							<a href="/" class="link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+							</a>
+						</div>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Введите поисковой запрос">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+
+									<button type="reset" class="close_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+									</button>
+								</form>
+							</div>
+						</div>
+
+						<div class="langs modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#langs_modal">
+								<img src="images/tmp/flag_ru.svg" alt="">
+								<span>RU</span>
+								<div class="arr"></div>
+							</button>
+
+							<div class="mini_modal" id="langs_modal">
+								<a class="active">
+									<img src="images/tmp/flag_ru.svg" alt="">
+									<span>RU</span>
+								</a>
+
+								<a href="/">
+									<img src="images/tmp/flag_en.svg" alt="">
+									<span>EN</span>
+								</a>
+
+								<!-- <a href="/">
+									<img src="images/tmp/flag_CH.svg" alt="">
+									<span>CH</span>
+								</a> -->
+							</div>
+						</div>
+
+						<button class="menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</header>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a>
+							<svg class="sep"><use xlink:href="images/sprite.svg#ic_arrow_hor"></use></svg>
+
+							<span class="current">Контентная страница</span>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="main_slider">
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="slide swiper-slide">
+								<div class="cont">
+									<div class="data">
+										<div class="title">Датчики линейных перемещений</div>
+
+										<div class="desc">Высокая точность позиционирования длинномерных деталей при их обработке на промышленном оборудовании — одна из сложнейших технологических задач, от решения которой зависит качество выпускаемых изделий, реальная производительность оборудования и, в конечном счете, себестоимость продукции.</div>
+
+										<a href="/" class="link">ПЕРЕЙТИ В КАТАЛОГ</a>
+									</div>
+								</div>
+
+								<img data-src="images/tmp/main_slider_img.png" alt="" class="img lazyload">
+								<img data-src="images/tmp/bg_main_slider.jpg" alt="" class="bg lazyload">
+							</div>
+
+							<div class="slide swiper-slide">
+								<div class="cont">
+									<div class="data">
+										<div class="title">Датчики линейных перемещений</div>
+
+										<div class="desc">Высокая точность позиционирования длинномерных деталей при их обработке на промышленном оборудовании — одна из сложнейших технологических задач, от решения которой зависит качество выпускаемых изделий, реальная производительность оборудования и, в конечном счете, себестоимость продукции.</div>
+
+										<a href="/" class="link">ПЕРЕЙТИ В КАТАЛОГ</a>
+									</div>
+								</div>
+
+								<img data-src="images/tmp/main_slider_img.png" alt="" class="img lazyload">
+								<img data-src="images/tmp/bg_main_slider.jpg" alt="" class="bg lazyload">
+							</div>
+
+							<div class="slide swiper-slide">
+								<div class="cont">
+									<div class="data">
+										<div class="title">Датчики линейных перемещений</div>
+
+										<div class="desc">Высокая точность позиционирования длинномерных деталей при их обработке на промышленном оборудовании — одна из сложнейших технологических задач, от решения которой зависит качество выпускаемых изделий, реальная производительность оборудования и, в конечном счете, себестоимость продукции.</div>
+
+										<a href="/" class="link">ПЕРЕЙТИ В КАТАЛОГ</a>
+									</div>
+								</div>
+
+								<img data-src="images/tmp/main_slider_img.png" alt="" class="img lazyload">
+								<img data-src="images/tmp/bg_main_slider.jpg" alt="" class="bg lazyload">
+							</div>
+
+							<div class="slide swiper-slide">
+								<div class="cont">
+									<div class="data">
+										<div class="title">Датчики линейных перемещений</div>
+
+										<div class="desc">Высокая точность позиционирования длинномерных деталей при их обработке на промышленном оборудовании — одна из сложнейших технологических задач, от решения которой зависит качество выпускаемых изделий, реальная производительность оборудования и, в конечном счете, себестоимость продукции.</div>
+
+										<a href="/" class="link">ПЕРЕЙТИ В КАТАЛОГ</a>
+									</div>
+								</div>
+
+								<img data-src="images/tmp/main_slider_img.png" alt="" class="img lazyload">
+								<img data-src="images/tmp/bg_main_slider.jpg" alt="" class="bg lazyload">
+							</div>
+						</div>
+
+						<div class="swiper-pagination"></div>
+					</div>
+				</section>
+
+
+				<section class="block">
+					<div class="cont">
+						<div class="text_block">
+							<h1>Датчик линейных перемещений KHMS-0050M-D60-A21 высокой точности Н1</h1>
+
+							<p>Магнитострикционная система измерения на основе <a href="/">датчика линейных перемещений KS50VS-2000M-D61-A10</a> производства компании AMT sensor. Для заказа системы измерения другой длины, необходимо обратиться к специалистам нашей компании по телефону. рудно представить высокоэффективное современное производство без автоматизированных процессов. Во времена первой промышленной революции люди смогли заменить ручной труд машинным, и никто тогда не мог представить возможности и технологии, которые окружают нас на сегодняшний день.</p>
+
+							<blockquote>Трудно представить высокоэффективное современное производство без автоматизированных процессов. Во времена первой промышленной революции люди смогли заменить ручной труд машинным, и никто тогда не мог представить возможности и технологии, которые окружают нас на сегодняшний день.</blockquote>
+
+							<p>Высокая точность позиционирования длинномерных деталей при их обработке на промышленном оборудовании — одна из сложнейших технологических задач, от решения которой зависит качество выпускаемых изделий, реальная производительность оборудования и, в конечном счете, себестоимость продукции. Магнитострикционный датчик —это линейная измерительная система, состоящая из магнитострикционного волновода (круглый полый прут или плоский профиль), подвижного постоянного магнита, определяющего позицию, и измерительной головки.</p>
+
+							<figure>
+								<img src="images/tmp/text_img.jpg" alt="">
+
+								<figcaption>
+									<h2>Принцип работы датчика KS50VS-2000M-D61-A10h2</h2>
+
+									<p>Широко используется в металлургии, нефтехимии, резине, строительной технике, военной промышленности, портовой технике, железнодорожном транспорте, оборудовании с литиевыми батареями, оффшорной ветроэнергетике, машиностроении для строительных материалов и других областях, и имеет хорошие экономические и социальные преимущества.</p>
+
+									<div class="line"></div>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</section>
+
+
+
+
+
+				<section class="app_area block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">Область применения</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="item">
+										<div class="thumb">
+											<img data-src="images/tmp/app_area_thumb.jpg" alt="" class="swiper-lazy">
+
+											<div class="name">Сельское и лесное хозяйство</div>
+										</div>
+
+										<div class="desc">
+											<p>Широко используется в металлургии, нефтехимии, резине, строительной технике, военной промышленности, портовой технике, железнодорожном транспорте, оборудовании с литиевыми батареями, оффшорной ветроэнергетике, машиностроении для строительных материалов и других областях, и имеет хорошие экономические и социальные преимущества.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<div class="thumb">
+											<img data-src="images/tmp/app_area_thumb2.jpg" alt="" class="swiper-lazy">
+
+											<div class="name">Строительная и горно-добывающая техника</div>
+										</div>
+
+										<div class="desc">
+											<p>Широко используется в металлургии, нефтехимии, резине, строительной технике, военной промышленности, портовой технике, железнодорожном транспорте, оборудовании с литиевыми батареями, оффшорной ветроэнергетике, машиностроении для строительных материалов и других областях, и имеет хорошие экономические и социальные преимущества.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<div class="thumb">
+											<img data-src="images/tmp/app_area_thumb.jpg" alt="" class="swiper-lazy">
+
+											<div class="name">Сельское и лесное хозяйство</div>
+										</div>
+
+										<div class="desc">
+											<p>Широко используется в металлургии, нефтехимии, резине, строительной технике, военной промышленности, портовой технике, железнодорожном транспорте, оборудовании с литиевыми батареями, оффшорной ветроэнергетике, машиностроении для строительных материалов и других областях, и имеет хорошие экономические и социальные преимущества.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="item">
+										<div class="thumb">
+											<img data-src="images/tmp/app_area_thumb2.jpg" alt="" class="swiper-lazy">
+
+											<div class="name">Строительная и горно-добывающая техника</div>
+										</div>
+
+										<div class="desc">
+											<p>Широко используется в металлургии, нефтехимии, резине, строительной технике, военной промышленности, портовой технике, железнодорожном транспорте, оборудовании с литиевыми батареями, оффшорной ветроэнергетике, машиностроении для строительных материалов и других областях, и имеет хорошие экономические и социальные преимущества.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="controls">
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</div>
+							</div>
+						</div>
+
+						<div class="all_link">
+							<a href="/">Посмотреть еще</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="about_info block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">AMT — производитель датчиков промышленной автоматизации </div>
+						</div>
+
+						<div class="text_block">
+							<div class="cols">
+								<div class="col">
+									<p><b>Трудно представить высокоэффективное современное производство без автоматизированных процессов. Во времена первой промышленной революции люди смогли заменить ручной труд машинным, и никто тогда не мог представить возможности и технологии, которые окружают нас на сегодняшний день.</b></p>
+								</div>
+
+								<div class="col">
+									<p>Мы предоставляем индивидуальные решения для автоматизации производственных процессов, создания инновационных и независимых систем промышленной автоматизации. Совершенствуя наши знания в области цифровых технологий, мы способны выполнять задачи любой сложности. Нашими приоритетами являются высокое качество предоставляемых услуг, ответственность персонала и исполнение взятых обязательств, что подтверждает наша репутация надёжного партнера.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="image">
+							<div class="img">
+								<img data-src="images/tmp/about_info.jpg" alt="" class="lazyload">
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="promo_block block">
+					<div class="cont">
+						<div class="data">
+							<div class="title">Производство<br> датчиков<br> промышленной<br> автоматизации</div>
+						</div>
+					</div>
+
+					<img data-src="images/tmp/bg_promo_block.jpg" alt="" class="bg lazyload">
+				</section>
+
+
+				<section class="block">
+					<div class="cont">
+						<div class="text_block">
+							<div class="cols">
+								<div class="col">
+									<h3>Нумерованный список H3</h3>
+
+									<ol>
+										<li>Задавать пользователям данные о параметрах в точках контроля</li>
+										<li>Собирать и хранить информацию о параметрах точек контроля в ПК</li>
+										<li>Передавать данные из базы по желанию клиента (за день, неделю, месяц)</li>
+									</ol>
+								</div>
+
+								<div class="col">
+									<h3>Маркированный список H3</h3>
+
+									<ul>
+										<li>Задавать пользователям данные о параметрах в точках контроля</li>
+										<li>Собирать и хранить информацию о параметрах точек контроля в ПК</li>
+										<li>Передавать данные из базы по желанию клиента (за день, неделю, месяц)</li>
+									</ul>
+								</div>
+							</div>
+
+							<h3>Часто задаваемые вопросы H3</h3>
+
+							<div class="accordion">
+								<div class="accordion_item active">
+									<div class="head">
+										<div class="title">Какие условия гарантии вы обеспечиваете?</div>
+
+										<div class="icon"></div>
+									</div>
+
+									<div class="data" style="display: block;">
+										<p>Мы предоставляем индивидуальные решения для автоматизации производственных процессов, создания инновационных и независимых систем промышленной автоматизации. Совершенствуя наши знания в области цифровых технологий, мы способны выполнять задачи любой сложности. Нашими приоритетами являются высокое качество предоставляемых услуг, ответственность персонала и исполнение взятых обязательств, что подтверждает наша репутация надёжного партнера.</p>
+									</div>
+								</div>
+
+								<div class="accordion_item">
+									<div class="head">
+										<div class="title">В какие районы вы осуществляете доставку?</div>
+
+										<div class="icon"></div>
+									</div>
+
+									<div class="data">
+										<p>Мы предоставляем индивидуальные решения для автоматизации производственных процессов, создания инновационных и независимых систем промышленной автоматизации. Совершенствуя наши знания в области цифровых технологий, мы способны выполнять задачи любой сложности. Нашими приоритетами являются высокое качество предоставляемых услуг, ответственность персонала и исполнение взятых обязательств, что подтверждает наша репутация надёжного партнера.</p>
+									</div>
+								</div>
+
+								<div class="accordion_item">
+									<div class="head">
+										<div class="title">Какие способы оплаты возможны?</div>
+
+										<div class="icon"></div>
+									</div>
+
+									<div class="data">
+										<p>Мы предоставляем индивидуальные решения для автоматизации производственных процессов, создания инновационных и независимых систем промышленной автоматизации. Совершенствуя наши знания в области цифровых технологий, мы способны выполнять задачи любой сложности. Нашими приоритетами являются высокое качество предоставляемых услуг, ответственность персонала и исполнение взятых обязательств, что подтверждает наша репутация надёжного партнера.</p>
+									</div>
+								</div>
+
+								<div class="accordion_item">
+									<div class="head">
+										<div class="title">На каких условия осуществляется возврат товаров?</div>
+
+										<div class="icon"></div>
+									</div>
+
+									<div class="data">
+										<p>Мы предоставляем индивидуальные решения для автоматизации производственных процессов, создания инновационных и независимых систем промышленной автоматизации. Совершенствуя наши знания в области цифровых технологий, мы способны выполнять задачи любой сложности. Нашими приоритетами являются высокое качество предоставляемых услуг, ответственность персонала и исполнение взятых обязательств, что подтверждает наша репутация надёжного партнера.</p>
+									</div>
+								</div>
+							</div>
+
+							<h3>Таблица H3</h3>
+
+							<div class="table_wrap">
+								<table>
+									<thead>
+										<tr>
+											<th>ДАТЧИК</th>
+											<th>ХАРАКТЕРИСТИКА</th>
+											<th>ЗНАЧЕНИЕ</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td>Датчик уровня жидкости LS10SN-0900M-S05-A10</td>
+											<td>Материал корпуса</td>
+											<td>Нержавеющая сталь AISI 304</td>
+										</tr>
+
+										<tr>
+											<td>Датчик линейных перемещений MH07СB-0350M-S20-A10</td>
+											<td>Температура окружающей среды</td>
+											<td>-40…+85°C</td>
+										</tr>
+
+										<tr>
+											<td>Датчик линейных перемещений KH10MS-2450M-D61-A10</td>
+											<td>Конструкция</td>
+											<td>Стержневой</td>
+										</tr>
+
+										<tr>
+											<td>Датчик линейных перемещений GBF-2500M-D60-V10</td>
+											<td>Потребляемый ток, макс.</td>
+											<td>50 мА</td>
+										</tr>
+
+										<tr>
+											<td>Датчик линейных перемещений BTL5-T120-M0900-P-S103</td>
+											<td>Повторяемость</td>
+											<td><±0.005%F.S.</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="contacts_block block">
+					<div class="cont">
+						<div class="row">
+							<button class="item modal_btn" data-modal="#callback_modal">
+								<span class="icon">
+									<img data-src="images/ic_contacts1.svg" alt="" class="lazyload">
+								</span>
+
+								<span>Заказать обратный звонок</span>
+							</button>
+
+							<button class="item modal_btn" data-modal="#consult_modal">
+								<span class="icon">
+									<img data-src="images/ic_contacts2.svg" alt="" class="lazyload">
+								</span>
+
+								<span>Оставить заявку</span>
+							</button>
+
+							<button class="item modal_btn" data-modal="#consult_modal">
+								<span class="icon">
+									<img data-src="images/ic_contacts3.svg" alt="" class="lazyload">
+								</span>
+
+								<span>Получить техническую консультацию</span>
+							</button>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="partners block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">Партнеры H1</div>
+						</div>
+
+						<div class="row">
+							<div class="text_block">
+								<div class="table_wrap">
+									<table>
+										<thead>
+											<tr>
+												<th>РЕГИОН</th>
+												<th>АДРЕС</th>
+												<th>КОНТАКТЫ</th>
+											</tr>
+										</thead>
+
+										<tbody>
+											<tr>
+												<td>Калуга</td>
+
+												<td>248000, Калужская обл., <br> г. Калуга, ул. Гагарина, д. 4,<br> офис 302-10</td>
+
+												<td>
+													<div>+7 (499) 444-60-28</div>
+													<div>ПН–ЧТ: 9:00–18:00 ПТ–ВС: 9:00–17:00</div>
+													<div>info@amtsensor.ru</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td>Тверь</td>
+
+												<td>248000, Калужская обл., <br> г. Калуга, ул. Гагарина, д. 4,<br> офис 302-10</td>
+
+												<td>
+													<div>+7 (499) 444-60-28</div>
+													<div>ПН–ЧТ: 9:00–18:00 ПТ–ВС: 9:00–17:00</div>
+													<div>info@amtsensor.ru</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td>Смоленск</td>
+
+												<td>248000, Калужская обл., <br> г. Калуга, ул. Гагарина, д. 4,<br> офис 302-10</td>
+
+												<td>
+													<div>+7 (499) 444-60-28</div>
+													<div>ПН–ЧТ: 9:00–18:00 ПТ–ВС: 9:00–17:00</div>
+													<div>info@amtsensor.ru</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+
+							<div class="image">
+								<img data-src="images/tmp/partners_img.jpg" alt="" class="lazyload">
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="contacts_info">
+					<div class="cont">
+						<div class="data">
+							<div class="title">Контакты</div>
+
+							<div class="phone">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								</div>
+
+								<a href="tel:+74994446028">+7 (499) 444-60-28</a>
+							</div>
+
+							<div class="time">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+								</div>
+
+								<span>ПН-ЧТ: 9:00-18:00 ПТ-ВС: 9:00-17:00</span>
+							</div>
+
+							<div class="email">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+								</div>
+
+								<a href="mailto:info@amtsensor.ru">info@amtsensor.ru</a>
+							</div>
+
+							<div class="location">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								</div>
+
+								<span>248000, Калужская обл., г. Калуга, ул. Гагарина, д. 4, офис 302-10</span>
+							</div>
+
+							<div class="row">
+								<div class="socials">
+									<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+										<svg><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+										<svg><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+										<svg><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									</a>
+								</div>
+
+								<div class="partners_link">
+									<a href="/">Партнеры</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="cont_left">
+						<div class="logo">
+							<img src="images/logo2.svg" alt="">
+						</div>
+
+						<div class="copyright">&copy; 2022 ООО  «Оранж-электрик»<br> Все права защищены</div>
+					</div>
+
+					<div class="links">
+						<div class="title">КАТАЛОГ</div>
+
+						<div class="items">
+							<div><a href="/">Датчики линейных перемещений</a></div>
+							<div><a href="/">Датчики уровня жидкостей</a></div>
+							<div><a href="/">Аксессуары</a></div>
+						</div>
+					</div>
+
+					<div class="links">
+						<div class="title">ПОКУПАТЕЛЮ</div>
+
+						<div class="items">
+							<div><a href="/">Доставка и Оплата</a></div>
+							<div><a href="/">Гарантия</a></div>
+							<div><a href="/">Возврат</a></div>
+						</div>
+					</div>
+
+					<div class="links">
+						<div class="title">КОМПАНИЯ</div>
+
+						<div class="items">
+							<div><a href="/">О нас</a></div>
+							<div><a href="/">Партнеры</a></div>
+							<div><a href="/">Юридическая информация</a></div>
+						</div>
+					</div>
+
+					<div class="contacts">
+						<div class="title">КОНТАКТЫ</div>
+
+						<div class="phone">
+							<div class="icon">
+								<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+							</div>
+
+							<a href="tel:+74994446028">+7 (499) 444-60-28</a>
+						</div>
+
+						<div class="email">
+							<div class="icon">
+								<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+							</div>
+
+							<a href="mailto:info@amtsensor.ru">info@amtsensor.ru</a>
+						</div>
+
+						<div class="location">
+							<div class="icon">
+								<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+							</div>
+
+							<span>248000, Калуга, ул. Гагарина, . 4, офис 302-10</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="cont row aligncenter">
+					<div class="privacy_policy_link">
+						<a href="/">Политика конфиденциальности</a>
+					</div>
+
+					<div class="socials">
+						<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+						</a>
+					</div>
+
+					<div class="creator">
+						<a href="/" target="_blank" rel="noopener">Разработка сайта — <span>Точка.ру</span></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Обратный звонок</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+						<!-- <input type="text" name="" value="" class="input error"> -->
+
+						<div class="label">Ваше имя</div>
+						<!-- <div class="error_text">Это поле необходимо заполнить</div> -->
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="tel" name="" value="" class="input">
+
+						<div class="label">Телефон</div>
+					</div>
+				</div>
+
+				<div class="line agree">
+					Соглашаюсь на обработку моих персональных данных<br> и принимаю <a href="/" target="_blank">политику конфиденциальности</a>.
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="consult_modal">
+			<div class="modal_title">Оставить заявку, получить консультацию</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+						<!-- <input type="text" name="" value="" class="input error"> -->
+
+						<div class="label">Ваше имя</div>
+						<!-- <div class="error_text">Это поле необходимо заполнить</div> -->
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+
+						<div class="label">Телефон или e-mail</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<textarea name=""></textarea>
+
+						<div class="label">Сообщение</div>
+					</div>
+				</div>
+
+				<div class="line file">
+					<div class="field">
+						<label>
+							<input type="file" name="">
+							<div class="path"></div>
+
+							<div class="btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_file"></use></svg>
+								<span>ВЫБРАТЬ</span>
+							</div>
+						</label>
+
+						<div class="label">Файл</div>
+					</div>
+				</div>
+
+				<div class="line agree">
+					Соглашаюсь на обработку моих персональных данных<br> и принимаю <a href="/" target="_blank">политику конфиденциальности</a>.
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+				</div>
+			</form>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

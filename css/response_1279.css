@@ -1,0 +1,851 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 36px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: 24px;
+        left: 248px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 52px;
+    }
+
+
+    .pagination a,
+    .pagination .sep
+    {
+        width: 48px;
+    }
+
+
+    .pagination .prev,
+    .pagination .next
+    {
+        width: 60px;
+    }
+
+
+    .pagination .limit .label
+    {
+        margin-right: 20px;
+    }
+
+    .pagination .nice-select
+    {
+        width: 108px;
+    }
+
+
+    .pagination .links,
+    .pagination .limit
+    {
+        box-shadow: 0 0 0 20px var(--bg);
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs button
+    {
+        line-height: 24px;
+    }
+
+
+    .tab_content.active
+    {
+        padding: 23px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 15px 59px 15px 23px;
+    }
+
+
+    .accordion_item .data
+    {
+        line-height: 21px;
+
+        padding: 0 59px 19px 23px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        width: auto;
+        height: 64px;
+        padding: 0 24px;
+    }
+
+
+    header .menu
+    {
+        padding-top: 64px;
+    }
+
+
+    header .search .mini_modal,
+    header .search .mini_modal.active
+    {
+        width: 419px;
+    }
+
+    header .search .input
+    {
+        height: 64px;
+        padding-right: 64px;
+    }
+
+    header .search .submit_btn,
+    header .search .close_btn
+    {
+        width: 64px;
+    }
+
+
+    header .contacts
+    {
+        height: 64px;
+        padding-right: 23px;
+        padding-left: 23px;
+    }
+
+
+    header .contacts .link + .link
+    {
+        margin-left: 16px;
+    }
+
+
+    header .search .btn
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    header .langs .btn
+    {
+        height: 64px;
+    }
+
+
+    header .menu_btn
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .page_title
+    {
+        line-height: calc(100% + 8px);
+
+        margin-top: 20px;
+    }
+
+
+    .page_desc
+    {
+        margin-top: 20px;
+        padding-bottom: 8px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        line-height: calc(100% + 8px);
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 20px;
+    }
+
+
+    .form .radios
+    {
+        column-gap: 16px;
+    }
+
+    .form .radios > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 22px;
+    }
+
+
+    .text_block h1
+    {
+        line-height: calc(100% + 8px);
+    }
+
+    .text_block h2
+    {
+        font-size: 28px;
+        line-height: calc(100% + 8px);
+    }
+
+    .text_block h3
+    {
+        font-size: 22px;
+        line-height: calc(100% + 8px);
+    }
+
+
+    .text_block .cols .col
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        margin-left: 40px;
+        padding-left: 22px;
+    }
+
+
+    .text_block figure
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .text_block figure img,
+    .text_block figure figcaption
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .text_block .line
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .text_block ul li:before
+    {
+        top: 8px;
+    }
+
+
+    .text_block table th
+    {
+        padding: 12px 10px;
+    }
+
+    .text_block table th:first-child
+    {
+        padding-left: 20px;
+    }
+
+
+    .text_block table td
+    {
+        padding: 12px 10px;
+    }
+
+    .text_block table td:first-child
+    {
+        padding-left: 20px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .main_slider .swiper .cont
+    {
+        min-height: 380px;
+        padding-top: 48px;
+        padding-bottom: 96px;
+    }
+
+
+    .main_slider .swiper-horizontal > .swiper-pagination-bullets,
+    .main_slider .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .main_slider .swiper-pagination-custom,
+    .main_slider .swiper-pagination-fraction
+    {
+        bottom: 113px;
+    }
+
+    .main_slider .reverse.swiper-horizontal > .swiper-pagination-bullets,
+    .main_slider .reverse .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .main_slider .reverse .swiper-pagination-custom,
+    .main_slider .reverse .swiper-pagination-fraction
+    {
+        right: 50%;
+        left: auto;
+
+        margin-right: -272px;
+        margin-left: 0;
+    }
+
+
+    .main_slider .data
+    {
+        width: 548px;
+    }
+
+
+    .main_slider .title
+    {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .main_slider .desc
+    {
+        line-height: 21px;
+    }
+
+
+    .main_slider .link
+    {
+        line-height: 50px;
+
+        left: 24px;
+
+        height: 50px;
+    }
+
+    .main_slider .reverse .link
+    {
+        right: 572px;
+        left: auto;
+
+        margin-left: 0;
+
+        transform: translateX(100%);
+    }
+
+
+    .main_slider .img
+    {
+        bottom: 40px;
+
+        width: 645px;
+        margin-left: -40px;
+    }
+
+
+    .main_slider .bg
+    {
+        right: 0;
+
+        margin-right: 0;
+    }
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .filter .form
+    {
+        margin-bottom: 16px;
+        margin-left: -24px;
+    }
+
+    .filter .form > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 16px;
+        margin-left: 24px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .row
+    {
+        margin-bottom: -32px;
+        margin-left: -24px;
+    }
+
+    .categories .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 32px;
+        margin-left: 24px;
+    }
+
+
+    .categories .category
+    {
+        line-height: 20px;
+    }
+
+    .categories .category .thumb
+    {
+        height: 148px;
+        margin-bottom: 12px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image .img:after,
+    .about_info .image:after
+    {
+        margin-left: 40px;
+    }
+
+
+
+    /*------------
+        Banner
+    ------------*/
+    .banner
+    {
+        margin-bottom: 92px;
+    }
+
+
+    .banner .cont
+    {
+        min-height: 400px;
+        padding-top: 52px;
+        padding-bottom: 104px;
+    }
+
+
+    .banner .data
+    {
+        width: 548px;
+    }
+
+
+    .banner .title
+    {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .banner .desc
+    {
+        line-height: 21px;
+    }
+
+
+    .banner .img
+    {
+        bottom: -40px;
+
+        width: 645px;
+        margin-left: -40px;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    --------------------*/
+    .contacts_block .cont
+    {
+        padding: 0;
+    }
+
+
+    .contacts_block .item .icon
+    {
+        height: 60px;
+        margin-bottom: 16px;
+    }
+
+
+
+    /*------------
+        Config
+    ------------*/
+    .config .col_left
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .config .image a
+    {
+        height: 574px;
+        padding: 24px;
+    }
+
+
+    .config .buy
+    {
+        margin-top: 16px;
+    }
+
+    .config .buy .code
+    {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+
+    .config .form
+    {
+        width: calc(50% - 12px);
+    }
+
+
+
+    /*--------------------
+        Prod. features
+    --------------------*/
+    .prod_features .label
+    {
+        width: 188px;
+    }
+
+
+    .prod_features .val
+    {
+        width: calc(100% - 200px);
+    }
+
+
+
+    /*-----------
+        Files
+    -----------*/
+    .files .section + .section
+    {
+        margin-top: 24px;
+    }
+
+
+    .files .list a
+    {
+        padding: 12px 0;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .data
+    {
+        padding: 40px 24px;
+    }
+
+
+
+    /*---------------
+        App. area
+    ---------------*/
+    .app_area .row
+    {
+        margin-left: -24px;
+    }
+
+    .app_area .row > *
+    {
+        width: calc(50% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .app_area .item .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        bottom: 24px;
+
+        max-width: calc(100% - 112px);
+        min-height: 68px;
+        padding: 12px 20px;
+    }
+
+
+
+    /*-------------
+        History
+    -------------*/
+    .history .item .desc
+    {
+        padding-right: 48px;
+    }
+
+
+    .history .images
+    {
+        width: calc(50% - 12px);
+        padding-bottom: 40px;
+    }
+
+
+    .history .images .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .history .images .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .history .text_block
+    {
+        width: calc(50% - 12px);
+    }
+
+
+
+    /*-------------------
+        Video reviews
+    -------------------*/
+    .video_reviews .video .name
+    {
+        line-height: 22px;
+
+        margin-top: 16px;
+    }
+
+
+    .video_reviews .video .icon
+    {
+        bottom: 24px;
+    }
+
+
+
+    /*-------------------
+        Video reviews
+    -------------------*/
+    .articles .article .thumb
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*-----------------
+        Promo block
+    -----------------*/
+    .promo_block .data
+    {
+        width: 400px;
+        min-height: 400px;
+        padding: 48px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .text_block,
+    .partners .image
+    {
+        width: calc(50% - 12px);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding: 100px 0;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 340px;
+        padding: 32px;
+    }
+
+
+    .contacts_info .title
+    {
+        font-size: 28px;
+        line-height: calc(100% + 8px);
+    }
+
+
+    .contacts_info .data .socials a + a
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .image
+    {
+        width: 600px;
+        height: 400px;
+        padding: 40px;
+    }
+
+
+    .product_info .data
+    {
+        width: calc(100% - 624px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont
+    {
+        padding-top: 48px;
+        padding-bottom: 40px;
+    }
+
+
+    footer .cont + .cont
+    {
+        padding-top: 23px;
+        padding-bottom: 24px;
+    }
+
+    footer .cont + .cont:before,
+    footer .cont + .cont:after
+    {
+        left: 24px;
+    }
+
+
+
+    footer .links
+    {
+        display: none;
+    }
+
+    footer .links + .links
+    {
+        display: block;
+    }
+
+
+
+    footer .socials a + a
+    {
+        margin-left: 24px;
+    }
+}

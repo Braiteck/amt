@@ -1,0 +1,474 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        left: 260px;
+
+        margin-left: 0;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-left: -40px;
+    }
+
+
+    .tabs button
+    {
+        margin-left: 40px;
+        padding-bottom: 12px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        width: 212px;
+        height: 80px;
+    }
+
+
+    header .menu
+    {
+        padding-top: 80px;
+    }
+
+
+    header .contacts
+    {
+        height: 80px;
+        padding-right: 27px;
+        padding-left: 27px;
+    }
+
+
+    header .contacts .link + .link
+    {
+        margin-left: 20px;
+    }
+
+
+    header .search .btn
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+
+    header .search .mini_modal,
+    header .search .mini_modal.active
+    {
+        width: 451px;
+    }
+
+    header .search .input
+    {
+        height: 80px;
+        padding-right: 80px;
+        padding-left: 24px;
+    }
+
+    header .search .submit_btn,
+    header .search .close_btn
+    {
+        width: 80px;
+    }
+
+
+    header .langs .btn
+    {
+        min-width: 124px;
+        height: 80px;
+    }
+
+
+    header .menu_btn
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > *,
+    .text_block figcaption > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .text_block .line
+    {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+
+    .text_block table th
+    {
+        font-size: 12px;
+        line-height: 20px;
+
+        padding: 14px 12px;
+    }
+
+    .text_block table th:first-child
+    {
+        padding-left: 24px;
+    }
+
+
+    .text_block table td
+    {
+        font-size: 13px;
+        line-height: 21px;
+
+        padding: 14px 12px;
+    }
+
+    .text_block table td:first-child
+    {
+        padding-left: 24px;
+    }
+
+    .text_block table td br
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .data
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .main_slider .link
+    {
+        left: 40px;
+
+        margin-left: 0;
+    }
+
+
+    .main_slider .reverse .link
+    {
+        left: 50%;
+
+        margin-left: 20px;
+    }
+
+
+    .main_slider .reverse.swiper-horizontal > .swiper-pagination-bullets,
+    .main_slider .reverse .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .main_slider .reverse .swiper-pagination-custom,
+    .main_slider .reverse .swiper-pagination-fraction
+    {
+        left: 50%;
+
+        margin-left: 240px;
+    }
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .filter .form
+    {
+        margin-left: -40px;
+    }
+
+    .filter .form > *
+    {
+        width: calc(25% - 40px);
+        margin-left: 40px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .row
+    {
+        margin-left: -40px;
+    }
+
+    .categories .row > *
+    {
+        width: calc(25% - 40px);
+        margin-left: 40px;
+    }
+
+
+    .categories .category .thumb
+    {
+        margin-bottom: 15px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image .img:after,
+    .about_info .image:after
+    {
+        margin-left: 60px;
+    }
+
+
+
+    /*------------
+        Banner
+    ------------*/
+    .banner
+    {
+        margin-bottom: 120px;
+    }
+
+
+
+    /*------------
+        Config
+    ------------*/
+    .config .col_left
+    {
+        width: 676px;
+    }
+
+
+    .config .image a
+    {
+        height: 610px;
+        padding: 40px;
+    }
+
+
+    .config .buy
+    {
+        margin-top: 20px;
+    }
+
+
+    .config .form
+    {
+        width: calc(100% - 716px);
+    }
+
+
+
+    /*--------------------
+        Prod. features
+    --------------------*/
+    .prod_features
+    {
+        column-gap: 40px;
+    }
+
+
+
+    /*---------------
+        App. area
+    ---------------*/
+    .app_area .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .app_area .row > *
+    {
+        width: calc(50% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+    .app_area .item .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        bottom: 28px;
+
+        max-width: calc(100% - 116px);
+        min-height: 72px;
+        padding: 12px 24px;
+    }
+
+
+    .app_area .item .desc
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------
+        History
+    -------------*/
+    .history .item .desc
+    {
+        line-height: 20px;
+
+        padding-right: 52px;
+    }
+
+
+    .history .images
+    {
+        width: calc(50% - 20px);
+        padding-bottom: 48px;
+    }
+
+
+    .history .images .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .history .images .row > *
+    {
+        width: calc(50% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+    .history .text_block
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*-----------------
+        Promo block
+    -----------------*/
+    .promo_block .data
+    {
+        width: 500px;
+        min-height: 500px;
+        padding: 60px;
+    }
+
+
+    .promo_block .title
+    {
+        line-height: calc(100% + 8px);
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .text_block,
+    .partners .image
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding: 124px 0;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 580px;
+        padding: 40px;
+    }
+
+
+    .contacts_info .data .socials a + a
+    {
+        margin-left: 24px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .name
+    {
+        line-height: 22px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .image
+    {
+        width: 680px;
+        height: 450px;
+        padding: 40px;
+    }
+
+
+    .product_info .data
+    {
+        width: calc(100% - 720px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont + .cont:before,
+    footer .cont + .cont:after
+    {
+        left: 40px;
+    }
+}

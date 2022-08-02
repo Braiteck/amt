@@ -1,0 +1,117 @@
+@media print,
+(max-width: 1899px)
+{
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        width: 300px;
+    }
+
+
+    header .menu
+    {
+        position: absolute;
+        z-index: 90;
+        top: 0;
+        left: 100%;
+
+        width: 375px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 100px 0 0;
+
+        transition: transform .3s linear;
+
+        background: #fff;
+    }
+
+    header .menu.show
+    {
+        transform: translateX(-100%);
+    }
+
+
+    header .menu .row
+    {
+        display: block;
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    }
+
+
+    header .menu_item:first-child
+    {
+        border-top: 1px solid #ededed;
+    }
+
+    header .menu_item + .menu_item
+    {
+        margin-top: 1px;
+        margin-left: 0;
+    }
+
+    header .menu_item > a.sub_link:after,
+    header .menu_item .sub_menu,
+    header .menu_item:hover .sub_menu,
+    header .menu_item > a.touch_link + .sub_menu.show
+    {
+        display: none;
+    }
+
+
+    header .menu_item > a
+    {
+        height: 60px;
+        padding: 0 24px;
+
+        text-align: left;
+
+        justify-content: flex-start;
+    }
+
+
+    header .contacts
+    {
+        padding-right: 31px;
+        padding-left: 31px;
+    }
+
+    header .contacts .email
+    {
+        margin-right: 32px;
+    }
+
+    header .contacts .link + .link
+    {
+        margin-left: 24px;
+    }
+
+
+    header .menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .reverse .img
+    {
+        margin-right: 80px;
+
+        transform: scale(-1, 1);
+    }
+}

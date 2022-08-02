@@ -1,0 +1,564 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 32px;
+    }
+
+
+    .swiper-pagination-bullet + .swiper-pagination-bullet
+    {
+        margin-left: 24px !important;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        left: 236px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 48px;
+        padding-left: 40px;
+    }
+
+
+    .pagination .limit
+    {
+        position: relative;
+
+        margin-left: auto;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        margin-right: auto;
+    }
+
+
+    header .contacts
+    {
+        display: none;
+    }
+
+
+    header .search .mini_modal,
+    header .search .mini_modal.active
+    {
+        width: 360px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .reset_btn
+    {
+        margin-left: 24px;
+    }
+
+
+    .form .bottom .agree
+    {
+        max-width: calc(100% - 169px);
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 24px;
+
+        margin-bottom: 16px;
+    }
+
+    .text_block h3
+    {
+        font-size: 20px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: 100%;
+    }
+
+    .text_block .cols .col + .col
+    {
+        margin-top: 24px;
+    }
+
+
+    .text_block figure img,
+    .text_block figure figcaption
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .text_block .line
+    {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+
+    .text_block ul li + li,
+    .text_block ol li + li
+    {
+        margin-top: 8px;
+    }
+
+
+    .text_block table td br
+    {
+        display: block;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .main_slider .swiper .cont
+    {
+        min-height: 368px;
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+
+
+    .main_slider .reverse.swiper-horizontal > .swiper-pagination-bullets,
+    .main_slider .reverse .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .main_slider .reverse .swiper-pagination-custom,
+    .main_slider .reverse .swiper-pagination-fraction
+    {
+        margin-right: -232px;
+    }
+
+
+    .main_slider .data
+    {
+        width: 436px;
+    }
+
+
+    .main_slider .title
+    {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .main_slider .desc
+    {
+        line-height: 19px;
+    }
+
+
+    .main_slider .link
+    {
+        width: 184px;
+    }
+
+    .main_slider .reverse .link
+    {
+        right: 460px;
+    }
+
+
+    .main_slider .img
+    {
+        width: 480px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .filter .form > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .row > *,
+    .tab_content .categories .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*------------
+        Banner
+    ------------*/
+    .banner
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .banner .cont
+    {
+        min-height: 320px;
+        padding-top: 48px;
+        padding-bottom: 96px;
+    }
+
+
+    .banner .data
+    {
+        width: 436px;
+    }
+
+
+    .banner .title
+    {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .banner .desc
+    {
+        line-height: 19px;
+    }
+
+
+    .banner .img
+    {
+        bottom: -32px;
+
+        width: 480px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    --------------------*/
+    .contacts_block .item
+    {
+        line-height: 22px;
+    }
+
+
+    .contacts_block .item .icon
+    {
+        height: 52px;
+        margin-bottom: 16px;
+    }
+
+
+
+    /*------------
+        Config
+    ------------*/
+    .config .col_left
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .config .image a
+    {
+        height: 400px;
+    }
+
+    .config .image .swiper-horizontal > .swiper-pagination-bullets,
+    .config .image .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .config .image .swiper-pagination-custom,
+    .config .image .swiper-pagination-fraction
+    {
+        bottom: 24px;
+    }
+
+
+    .config .form
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------------
+        Prod. features
+    --------------------*/
+    .prod_features
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+    .prod_features > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .prod_features .label
+    {
+        width: 275px;
+    }
+
+
+    .prod_features .val
+    {
+        width: calc(100% - 295px);
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .block_title
+    {
+        font-size: 19px;
+        line-height: 27px;
+
+        margin-bottom: 16px;
+    }
+
+
+
+    /*---------------
+        App. area
+    ---------------*/
+    .app_area .item .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        bottom: 20px;
+
+        max-width: calc(100% - 20px);
+        padding: 12px 16px;
+    }
+
+
+    .app_area .item .desc
+    {
+        line-height: 21px;
+
+        margin-top: 16px;
+    }
+
+
+    .app_area .load_more
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*-------------
+        History
+    -------------*/
+    .history .data
+    {
+        margin-top: 52px;
+    }
+
+
+    .history .images
+    {
+        width: 100%;
+        margin-bottom: 36px;
+    }
+
+
+    .history .text_block
+    {
+        width: 100%;
+    }
+
+
+
+    /*-----------------
+        Promo block
+    -----------------*/
+    .promo_block .data
+    {
+        width: 340px;
+        min-height: 340px;
+        padding: 40px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .text_block,
+    .partners .image
+    {
+        width: 100%;
+    }
+
+
+    .partners .image
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding: 80px 0;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 320px;
+        padding: 28px;
+    }
+
+
+    .contacts_info .title
+    {
+        font-size: 26px;
+    }
+
+
+    .contacts_info .data .socials a + a
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .image
+    {
+        width: 440px;
+        height: 300px;
+        padding: 24px;
+    }
+
+
+    .product_info .data
+    {
+        width: calc(100% - 464px);
+    }
+
+
+    .product_info .order_btn
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .copyright
+    {
+        line-height: 22px;
+
+        margin-top: 34px;
+    }
+
+
+    footer .links + .links
+    {
+        display: none;
+    }
+
+
+    footer .contacts > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    footer .socials
+    {
+        margin-left: 48px;
+    }
+
+    footer .socials a + a
+    {
+        margin-left: 20px;
+    }
+
+
+    footer .creator
+    {
+        width: auto;
+    }
+}
